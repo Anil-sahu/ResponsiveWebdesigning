@@ -1,0 +1,174 @@
+*{
+	margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+	margin:0% 1% 0% -1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 100%;
+	min-width: 500px;
+}
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin:0% 2% 0% 1%;
+}
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);;
+}
+section{
+  margin-right:2%;
+    padding:2%;
+}
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 1%;
+	margin:2% 2% 2% -1%;
+}
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+}
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+	/* Safari and Chrome */	
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;	
+}
+
+ol{
+	list-style:upper-roman; 
+	margin:1em;
+}
+img{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+@media all and (min-width:900px){
+img{
+	display:block;
+	display: flex;
+    float:right;
+	width:21%;
+	height:20%;
+	margin:2%;
+}
+#left{
+	float:left;
+	width: 30%;
+}
+header,footer{
+	background-color:transparent;
+}
+#center{
+	display:inline-block;
+	width:60%;
+}
+}
+@media (min-width:522px) and (max-width: 899.99px){
+img{
+	display:block;
+	display: flex;
+    float:right;
+	width:21%;
+	height:20%;
+	margin:2%;
+	
+}
+#left{
+	display: block;
+	float:left;
+	height: 100%;
+}
+#center{
+	display:inline-block;
+	width:100%;
+}
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+    width:100%;
+    height: auto;
+	/* Safari and Chrome */	
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;	
+}
+}
+@media (min-width:375px ) and (max-width:521.99px){
+header h1{
+	font-size: 2rem;
+	color:rgba(0,0,0,.7);;
+}
+header,footer{
+	background-color:#0066FF;
+	width:100%;
+}
+
+#center{
+	display: block;
+	width:100%;
+}
+#left{
+	display: block;
+	width:100%;
+}
+.myClass{
+	border: 1px solid black;
+	border-radius: .25%;
+    width:100%;
+    height: auto;
+	/* Safari and Chrome */	
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;	
+}
+}
+@media (min-width:240px) and (max-width:374.99px){
+	header h1{
+	font-size: 20px;
+	color:rgba(0,0,0,.7);;
+}
+header,footer{
+	background-color:#0066FF;
+	width:100%;
+}
+
+#center{
+	display: block;
+	width:100%;
+}
+#left{
+	display: block;
+	width:100%;
+}
+.myClass{
+	border: 1px solid black;
+	border-radius: .25%;
+    width:100%;
+    height: auto;
+	/* Safari and Chrome */	
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;	
+}
+}
